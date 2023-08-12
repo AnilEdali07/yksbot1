@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YKS Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 90%; /* Konteynerin genişliğini artırdık. */
+            max-width: 1000px; /* Maksimum genişliği ayarladık. */
+            display: flex;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+        }
+        .info-panel {
+            flex: 1;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .chat-panel {
+            flex: 3; /* Chat panelini daha geniş yapmak için bu değeri artırdık. */
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="info-panel">
+            <h3>Botun Özellikleri</h3>
+            <ul>
+                <li>Kişiye özel öğrenme planı önerisi.</li>
+                <li>Günlük çalışma takvimi oluşturma.</li>
+                <li>Derse özgü kaynak önerisi.</li>
+                <li>Günlük motivasyon mesajları.</li>
+                <li>Sık yapılan hatalar hakkında bilgi.</li>
+                <li>Deneme sınavı analizi.</li>
+                <li>Verimli zaman yönetimi stratejileri.</li>
+            </ul>
+        </div>
+        <div class="chat-panel">
+            <div class="header">
+                <h2>YKS İçin Başarılar!</h2>
+            </div>
+            <iframe
+                src="https://www.chatbase.co/chatbot-iframe/Q4pFoNmfJSSteSxqDp4Qk"
+                width="100%"
+                style="height: 600px; min-height: 600px;"  /* Yüksekliği artırdık. */
+                frameborder="0">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
